@@ -4,7 +4,7 @@
 
 # Shirowh
 
-execute as @e[type=minecraft:interaction, tag=interaction.credtis_shirowh,nbt={attack:{}}] on attacker run playsound minecraft:block.enchantment_table.use master @s 1004 1 996 0.7
-execute as @e[type=minecraft:interaction, tag=interaction.credtis_shirowh,nbt={attack:{}}] on attacker run tellraw @s [{"translate":"credits.msg_shirowh","with":[{"translate":"credits.msg_shirowh.1","color":"dark_aqua",bold:true},{"translate":"credits.msg_shirowh.2","color":"dark_purple", bold: false}]}]
+execute in mace-blasters:mace as @e[type=minecraft:interaction, tag=interaction.credits_shirowh,nbt={attack:{}}] on attacker run playsound minecraft:block.enchantment_table.use master @s 484 217 501 0.7
+execute as @e[type=minecraft:interaction,tag=interaction.credits_shirowh,nbt={attack:{}}] on attacker run tellraw @s [{"translate":"credits.msg_shirowh","with":[{"translate":"credits.msg_shirowh.1","color":"dark_aqua",bold:true},{"translate":"credits.msg_shirowh.2","color":"dark_purple", bold: false}]}]
 
-data remove entity @e[type=minecraft:interaction, tag=interaction.credtis_shirowh,limit=1] attack
+data remove entity @e[type=minecraft:interaction, tag=interaction.credits_shirowh,limit=1] attack
