@@ -1,0 +1,2 @@
+execute as @a at @s[x=-80,y=200,z=-78,dx=200,dy=150,dz=200] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 13 force
+execute as @a at @s[x=-80,y=200,z=-78,dx=200,dy=150,dz=200] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 13 force
