@@ -2,5 +2,6 @@
   "type": "minecraft:block",
   "behaviors": {
     "place_rule": "slab"
-  }
+  },
+  "loot": "mace-blasters:blocks/invisible_slab"
 }
