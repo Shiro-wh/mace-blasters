@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "type=bottom":  { "model": "mace-blasters:block/invisible_slab" },
-    "type=top":     { "model": "mace-blasters:block/invisible_slab" },
-    "type=double":  { "model": "mace-blasters:block/invisible_slab" }
-  }
-}
