@@ -1,4 +1,4 @@
 # All Credits
 
-say test
-say test
+
+tellraw @a "TESTTT"
