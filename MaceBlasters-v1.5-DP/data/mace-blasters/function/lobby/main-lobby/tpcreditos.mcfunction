@@ -6,7 +6,7 @@ execute as @a[tag=entercredits] run tag @s remove entercredits
 
 execute as @a at @s[x=502, y=216, z=499, dx=0, dy=4, dz=2] run tag @s add exitcredits
 execute as @a[tag=exitcredits] run effect give @s minecraft:blindness 1 245 true
-execute as @a[tag=exitcredits] in mace-blasters:mace run tp @s -8.00 216.00 21.52
+execute as @a[tag=exitcredits] in mace-blasters:mace run tp @s -8.00 216 21.52
 execute as @a[tag=exitcredits] run tag @s remove exitcredits
 
 
