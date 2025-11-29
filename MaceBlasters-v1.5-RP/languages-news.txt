@@ -8,3 +8,8 @@ ENG:
 Hello! This txt is simply to inform you that Mace Blasters (starting after the release of v1.5) will now have a Crowdin where you can contribute
 your favorite language to the minigame. To become a translator, join the official Discord server: https://discord.gg/APkw3VVzKb
 and contact shirowh_ (Shirø).
+
+
+
+
+sadd
