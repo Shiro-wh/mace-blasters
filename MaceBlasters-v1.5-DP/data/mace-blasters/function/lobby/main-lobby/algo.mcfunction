@@ -1,0 +1,1 @@
+tellraw @a {"text":"holiwi","color":"red"}
