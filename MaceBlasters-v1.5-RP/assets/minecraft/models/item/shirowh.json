@@ -1,6 +1,6 @@
 {
   "textures": {
-    "0": "item/vaynilo"
+    "0": "item/shirowh"
   },
   "elements": [
     {
@@ -21,7 +21,7 @@
       "name": "Hat Layer",
       "from": [3.5, 23, 3.5],
       "to": [12.5, 32, 12.5],
-      "rotation": {"angle": -15, "axis": "x", "origin": [8, 27.75, 8]},
+      "rotation": {"angle": -15, "axis": "x", "origin": [8, 27.5, 8]},
       "faces": {
         "north": {"uv": [10, 2, 12, 4], "texture": "#0"},
         "east": {"uv": [8, 2, 10, 4], "texture": "#0"},
