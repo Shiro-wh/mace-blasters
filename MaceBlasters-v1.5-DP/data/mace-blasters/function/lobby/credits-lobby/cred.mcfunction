@@ -1,4 +1,2 @@
 # All Credits
-
-
-tellraw @a "TESTTT"
+tellraw @a {"text":"holiwi","color":"red"}
