@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom":  { "model": "namespace:block/invisible_slab" },
+    "type=top":     { "model": "namespace:block/invisible_slab" },
+    "type=double":  { "model": "namespace:block/invisible_slab" }
+  }
+}

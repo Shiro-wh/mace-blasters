@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:block",
+  "behaviors": {
+    "place_rule": "slab"
+  }
+}
