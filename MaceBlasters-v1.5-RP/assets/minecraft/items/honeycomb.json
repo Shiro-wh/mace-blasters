@@ -34,6 +34,13 @@
           "type": "model",
           "model": "item/portal"
       }
+      },
+	  {
+        "when": "portal2",
+        "model": {
+          "type": "model",
+          "model": "item/portal2"
+      }
       }
     ]
   }

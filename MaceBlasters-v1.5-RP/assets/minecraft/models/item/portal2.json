@@ -1,11 +1,11 @@
 {
   "textures": {
-    "0": "item/portal"
+    "0": "item/portal2"
   },
-	"elements": [
+  	"elements": [
 		{
-			"from": [0, 0, 8],
-			"to": [16, 16, 8],
+			"from": [3, 3, 8],
+			"to": [13, 13, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
