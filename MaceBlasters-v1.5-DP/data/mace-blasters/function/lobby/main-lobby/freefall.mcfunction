@@ -11,11 +11,11 @@ execute as @a[tag=lobby.falling] in mace-blasters:mace run function mace-blaster
 execute as @a[tag=lobby.falling] in mace-blasters:mace run tag @s remove lobby.falling
 
 execute as @a in mace-blasters:mace at @s[tag=lobby_platform_freefall_cloud,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] run effect give @s minecraft:slow_falling 2 1 true
-execute as @a in mace-blasters:mace if entity @s[tag=lobby_platform_freefall_cloud,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] at @e[type=minecraft:armor_stand,tag=freefall_platform_marker] run fill ~-1 ~-4 ~-1 ~1 ~-2 ~1 minecraft:air replace minecraft:cyan_stained_glass
+execute as @a in mace-blasters:mace if entity @s[tag=lobby_platform_freefall_cloud,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] at @e[type=minecraft:armor_stand,tag=freefall_platform_marker] run fill ~-1 ~-5 ~-1 ~1 ~ ~1 minecraft:air replace minecraft:cyan_stained_glass
 execute as @a in mace-blasters:mace if entity @s[tag=lobby_platform_freefall_cloud,x=-104,y=260,z=-109,dx=216,dy=5,dz=225] at @e[type=minecraft:armor_stand,tag=freefall_platform_marker,limit=1,sort=nearest] run kill @e[type=armor_stand,tag=freefall_platform_marker,limit=1,sort=nearest]
 execute as @a in mace-blasters:mace at @s[tag=lobby_platform_freefall_cloud,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] run tag @s remove lobby_platform_freefall_cloud
 
 execute as @a in mace-blasters:mace at @s[tag=lobby_platform_freefall_spark,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] run effect give @s minecraft:slow_falling 2 1 true
-execute as @a in mace-blasters:mace if entity @s[tag=lobby_platform_freefall_spark,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] at @e[type=minecraft:armor_stand,tag=freefall_platform_marker] run fill ~-1 ~-4 ~-1 ~1 ~-2 ~1 minecraft:air replace minecraft:orange_stained_glass
+execute as @a in mace-blasters:mace if entity @s[tag=lobby_platform_freefall_spark,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] at @e[type=minecraft:armor_stand,tag=freefall_platform_marker] run fill ~-1 ~-5 ~-1 ~1 ~ ~1 minecraft:air replace minecraft:orange_stained_glass
 execute as @a in mace-blasters:mace if entity @s[tag=lobby_platform_freefall_spark,x=-104,y=260,z=-109,dx=216,dy=5,dz=225] at @e[type=minecraft:armor_stand,tag=freefall_platform_marker,limit=1,sort=nearest] run kill @e[type=armor_stand,tag=freefall_platform_marker,limit=1,sort=nearest]
 execute as @a in mace-blasters:mace at @s[tag=lobby_platform_freefall_spark,x=-104,y=255,z=-109,dx=216,dy=5,dz=225] run tag @s remove lobby_platform_freefall_spark
