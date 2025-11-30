@@ -2,6 +2,7 @@
   "values": [
     "mace-blasters:lobby/main-lobby/particles",
     "mace-blasters:lobby/main-lobby/tpcreditos",
-    "mace-blasters:lobby/credits-lobby/credits"
+    "mace-blasters:lobby/credits-lobby/credits",
+    "mace-blasters:lobby/main-lobby/freefall"
   ]
 }
