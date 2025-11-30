@@ -27,6 +27,13 @@
           "type": "model",
           "model": "item/vorticepen"
       }
+      },
+	  {
+        "when": "portal",
+        "model": {
+          "type": "model",
+          "model": "item/portal"
+      }
       }
     ]
   }
