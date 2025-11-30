@@ -1,14 +1,14 @@
 # Mace Blasters Main Lobby Function
 
 # Particle Effects for Team Selection Area
-execute as @a[x=-80,y=200,z=-78,distance=..135] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 13 force
-execute as @a[x=-80,y=200,z=-78,distance=..135] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 13 force
+execute if entity @a[x=-80,y=200,z=-78,distance=..135] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 13 force
+execute if entity @a[x=-80,y=200,z=-78,distance=..135] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 13 force
 
-execute as @a[x=-80,y=200,z=-78,distance=136..170] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 12 2.1 0.00002 13 force
-execute as @a[x=-80,y=200,z=-78,distance=136..170] run particle minecraft:trial_spawner_detection -9 262 33 2.1 12 2.1 0.00002 13 force
+execute if entity @a[x=-80,y=200,z=-78,distance=136..170] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 12 2.1 0.00002 13 force
+execute if entity @a[x=-80,y=200,z=-78,distance=136..170] run particle minecraft:trial_spawner_detection -9 262 33 2.1 12 2.1 0.00002 13 force
 
-execute as @a[x=-80,y=200,z=-78,distance=171..200] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 6 2.1 0.00002 13 force
-execute as @a[x=-80,y=200,z=-78,distance=171..200] run particle minecraft:trial_spawner_detection -9 262 33 2.1 6 2.1 0.00002 13 force
+execute if entity @a[x=-80,y=200,z=-78,distance=171..200] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 6 2.1 0.00002 13 force
+execute if entity @a[x=-80,y=200,z=-78,distance=171..200] run particle minecraft:trial_spawner_detection -9 262 33 2.1 6 2.1 0.00002 13 force
 
 
 
