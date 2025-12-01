@@ -10,8 +10,6 @@ execute unless entity @a[x=-9,y=216,z=33,distance=..50] if entity @a[x=-9,y=216,
 execute unless entity @a[x=10,y=216,z=33,distance=..75] if entity @a[x=10,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 6 2.1 0.00002 3 force
 execute unless entity @a[x=-9,y=216,z=33,distance=..75] if entity @a[x=-9,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 3 force
 
-
-
 # Teleport Players to Credits Area
 execute as @a at @s[x=-10,y=215,z=19,dx=0,dy=5,dz=4] run tag @s add entercredits
 execute as @a[tag=entercredits] run effect give @s minecraft:blindness 1 245 true
