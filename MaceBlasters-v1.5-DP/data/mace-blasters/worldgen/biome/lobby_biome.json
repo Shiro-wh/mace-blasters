@@ -6,7 +6,9 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "water_color": 0
+    "water_color": 0,
+    "grass_color": 9551193,
+    "foliage_color": 9551193
   },
   "spawners": {},
   "spawn_costs": {},
