@@ -17,7 +17,7 @@
   "has_skylight": true,
   "has_ceiling": false,
   "coordinate_scale": 1,
-  "ambient_light": 1,
+  "ambient_light": 0,
   "logical_height": 0,
   "cardinal_light": "default",
   "infiniburn": "#minecraft:infiniburn_nether",
