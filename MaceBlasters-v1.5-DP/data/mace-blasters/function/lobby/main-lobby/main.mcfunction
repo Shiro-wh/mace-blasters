@@ -10,6 +10,16 @@ execute unless entity @a[x=-9,y=216,z=33,distance=..50] if entity @a[x=-9,y=216,
 execute unless entity @a[x=10,y=216,z=33,distance=..75] if entity @a[x=10,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 6 2.1 0.00002 3 force
 execute unless entity @a[x=-9,y=216,z=33,distance=..75] if entity @a[x=-9,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 3 force
 
+particle dust{color:[0.290,0.765,1.000],scale:1} 10 216 31 0.90 0 0 0 3 normal
+particle dust{color:[0.290,0.765,1.000],scale:1} 8 216 33 0 0 0.90 0 3 normal
+particle dust{color:[0.290,0.765,1.000],scale:1} 10 216 35 0.90 0 0 0 3 normal
+particle dust{color:[0.290,0.765,1.000],scale:1} 12 216 33 0 0 0.90 0 3 normal
+
+particle dust{color:[1.000,0.671,0.098],scale:1} -8 216 33 0 0 0.90 0 3 normal
+particle dust{color:[1.000,0.671,0.098],scale:1} -10 216 35 0.90 0 0 0 3 normal
+article dust{color:[1.000,0.671,0.098],scale:1} -12 216 33 0 0 0.90 0 3 normal
+particle dust{color:[1.000,0.671,0.098],scale:1} -10 216 31 0.90 0 0 0 3 normal
+
 # Teleport Players to Credits Area
 execute in mace-blasters:mace as @a at @s[x=-10,y=215,z=19,dx=0,dy=5,dz=4] run tag @s add entercredits
 execute as @a[tag=entercredits] run effect give @s minecraft:blindness 1 245 true
