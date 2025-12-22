@@ -1,5 +1,3 @@
-execute in mace-blasters:mace as @a[x=-104,y=171,z=-109,dx=216,dy=4,dz=225,limit=1,sort=nearest] store result score @s lobby_platform_random run random value 1..2
-
 execute as @a if score @s lobby_platform_random matches 1 run tag @s add lobby_platform_freefall_cloud
 execute as @a if score @s lobby_platform_random matches 2 run tag @s add lobby_platform_freefall_spark
 execute as @a run scoreboard players reset @s lobby_platform_random
