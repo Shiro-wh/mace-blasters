@@ -25,7 +25,6 @@ execute in mace-blasters:mace as @a at @s[x=-10,y=215,z=19,dx=0,dy=5,dz=4] run t
 execute as @a[tag=entercredits] run effect give @s minecraft:blindness 1 245 true
 execute as @a[tag=entercredits] in mace-blasters:mace run tp @s 500 216 500
 execute as @a[tag=entercredits] run tag @s remove entercredits
-tellraw Vaynilo {"text":"hola"}
 
 execute in mace-blasters:mace as @a at @s[x=502, y=216, z=499, dx=0, dy=4, dz=2] run tag @s add exitcredits
 execute as @a[tag=exitcredits] run effect give @s minecraft:blindness 1 245 true
