@@ -1,7 +1,7 @@
 {
   "attributes": {
-   "minecraft:visual/sky_light_color": "#FFFFFF",
-   "minecraft:visual/sky_light_factor": 1
+     "minecraft:visual/sky_light_color": "#FFFFFF",
+     "minecraft:visual/sky_light_factor": 1
   },
   "temperature": 0,
   "downfall": 0,
@@ -9,7 +9,9 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "water_color": 0
+    "water_color": 0,
+    "grass_color": 9551193,
+    "foliage_color": 9551193
   },
   "spawners": {},
   "spawn_costs": {},
