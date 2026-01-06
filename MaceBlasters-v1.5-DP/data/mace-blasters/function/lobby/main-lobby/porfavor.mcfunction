@@ -1,1 +1,0 @@
-tellraw Vaynilo {"text":"holi"}
