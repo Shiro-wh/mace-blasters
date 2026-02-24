@@ -2,6 +2,7 @@
   "values": [
     "mace-blasters:lobby/main-lobby/main",
     "mace-blasters:lobby/credits-lobby/credits",
-    "mace-blasters:lobby/main-lobby/freefall"
+    "mace-blasters:lobby/main-lobby/freefall",
+    "mace-blasters:lobby/main-lobby/screen/test"
   ]
 }
