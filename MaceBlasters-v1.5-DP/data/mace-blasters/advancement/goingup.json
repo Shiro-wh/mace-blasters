@@ -22,8 +22,8 @@
           "location": {
             "position": {
               "x": {
-                "min": -11,
-                "max": -9
+                "min": -9,
+                "max": -11
               },
               "y": {
                 "min": 319,
@@ -34,10 +34,7 @@
                 "max": 35
               }
             },
-            "dimension": "mace-blasters:mace",
-            "block": {
-              "blocks": "minecraft:orange_stained_glass"
-            }
+            "dimension": "mace-blasters:mace"
           }
         }
       }
@@ -64,10 +61,7 @@
                 "max": 32
               }
             },
-            "dimension": "mace-blasters:mace",
-            "block": {
-              "blocks": "minecraft:cyan_stained_glass"
-            }
+            "dimension": "mace-blasters:mace"
           }
         }
       }
