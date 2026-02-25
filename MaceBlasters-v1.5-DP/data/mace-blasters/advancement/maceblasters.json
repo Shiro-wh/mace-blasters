@@ -10,7 +10,7 @@
     "title": "advancement.title_maceblasters",
     "description": "advancement.description_maceblasters",
     "background": "minecraft:block/honey_block_bottom",
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
