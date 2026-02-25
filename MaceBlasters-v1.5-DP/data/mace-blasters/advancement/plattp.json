@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath",
+      "count": 1
+    },
+    "title": "advancement.title.plattp",
+    "description": "advancement.description.plattp",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "mace-blasters:maceblasters",
+  "criteria": {
+    "touch trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player"
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": -104,
+                "max": 112
+              },
+              "y": {
+                "min": 171,
+                "max": 175
+              },
+              "z": {
+                "min": -109,
+                "max": 116
+              }
+            },
+            "dimension": "mace-blasters:mace"
+          }
+        }
+      }
+    },
+  "requirements": [
+    [
+      "touch trigger"
+    ]
+  ]
+}
