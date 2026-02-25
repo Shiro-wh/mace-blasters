@@ -9,7 +9,7 @@
     },
     "title": "advancement.title_maceblasters",
     "description": "advancement.description_maceblasters",
-    "background": "minecraft:minecraft:block/honey_block_bottom",
+    "background": "minecraft:block/honey_block_bottom",
     "frame": "goal",
     "show_toast": false,
     "announce_to_chat": false,
