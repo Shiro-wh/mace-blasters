@@ -13,7 +13,7 @@
   },
   "parent": "mace-blasters:maceblasters",
   "criteria": {
-    "touch trigger": {
+    "touch dim": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -21,21 +21,7 @@
             "type": "minecraft:player"
           },
           "location": {
-            "position": {
-              "x": {
-                "min": -104,
-                "max": 112
-              },
-              "y": {
-                "min": 181,
-                "max": 214
-              },
-              "z": {
-                "min": -109,
-                "max": 116
-              }
-            },
-            "dimension": "mace-blasters:mace"
+            "biomes": "mace-blasters:below_lobby"
           }
         }
       }
@@ -43,7 +29,7 @@
   },
   "requirements": [
     [
-      "touch trigger"
+      "touch dim"
     ]
   ]
 }
