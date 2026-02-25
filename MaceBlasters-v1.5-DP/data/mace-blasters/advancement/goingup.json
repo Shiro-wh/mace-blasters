@@ -75,8 +75,5 @@
     [
       "orange tower"
     ]
-  ],
-  "rewards": {
-    "function": "mace-blasters:function/lobby/main-lobby/adv-test"
-  }
+  ]
 }
