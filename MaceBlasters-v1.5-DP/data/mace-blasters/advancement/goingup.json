@@ -8,8 +8,7 @@
     "description": "advancement.description.goingup",
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": true
+    "announce_to_chat": false
   },
   "parent": "mace-blasters:maceblasters",
   "criteria": {
@@ -55,5 +54,8 @@
       "blue tower",
       "orange tower"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "mace-blasters:function/lobby/main-lobby/adv-test"
+  }
 }
