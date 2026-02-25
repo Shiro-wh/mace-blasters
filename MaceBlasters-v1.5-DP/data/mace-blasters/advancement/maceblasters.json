@@ -12,8 +12,18 @@
     "background": "minecraft:map/decorations/green_banner",
     "frame": "goal",
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": false
   },
-  "criteria": {},
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
   "sends_telemetry_event": false
 }
