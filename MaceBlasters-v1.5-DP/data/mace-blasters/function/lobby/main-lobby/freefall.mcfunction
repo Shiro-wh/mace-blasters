@@ -4,7 +4,7 @@
 # v Recuerda optimizar esto luego! v
 execute in mace-blasters:mace run particle witch 0.87 171.42 8.50 65 3 65 0 150 force
 
-execute in mace-blasters:mace as @a[x=-104,y=186,z=-109,dx=216,dy=1,dz=225] run effect give @s minecraft:slow_falling 2 99 true
+execute in mace-blasters:mace as @a[x=-104,y=186,z=-109,dx=216,dy=3,dz=225] run effect give @s minecraft:slow_falling 1 99 true
 
 
 execute in mace-blasters:mace as @a[x=-104,y=171,z=-109,dx=216,dy=4,dz=225] run tag @s add lobby.falling
