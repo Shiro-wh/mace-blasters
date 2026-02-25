@@ -12,7 +12,7 @@
   },
   "parent": "mace-blasters:maceblasters",
   "criteria": {
-    "orange tower": {
+    "orange-tower": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -22,7 +22,7 @@
           "location": {
             "position": {
               "x": -10,
-              "y": 320,
+              "y": 319,
               "z": 34
             },
             "dimension": "mace-blasters:mace"
@@ -30,7 +30,7 @@
         }
       }
     },
-    "blue tower": {
+    "blue-tower": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -40,7 +40,7 @@
           "location": {
             "position": {
               "x": 10,
-              "y": 320,
+              "y": 319,
               "z": 31
             },
             "dimension": "mace-blasters:mace"
@@ -51,8 +51,8 @@
   },
   "requirements": [
     [
-      "blue tower",
-      "orange tower"
+      "blue-tower",
+      "orange-tower"
     ]
   ],
   "rewards": {
