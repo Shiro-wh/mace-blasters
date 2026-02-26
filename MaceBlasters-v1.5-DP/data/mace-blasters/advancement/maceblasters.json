@@ -7,8 +7,8 @@
       },
       "count": 1
     },
-    "title": "advancement.title_maceblasters",
-    "description": "advancement.description_maceblasters",
+    "title": "[{"translate":"advancement.title_maceblasters"}]",
+    "description": "[{"translate":"advancement.description_maceblasters"}]",
     "background": "minecraft:block/honey_block_bottom",
     "frame": "challenge",
     "show_toast": false,
