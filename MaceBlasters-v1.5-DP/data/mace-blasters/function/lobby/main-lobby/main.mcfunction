@@ -1,6 +1,7 @@
 # Mace Blasters Main Lobby Function
 
 function mace-blasters:lobby/main-lobby/screen/welcome-screen
+function mace-blasters:lobby/main-lobby/advancements/below-lobby
 
 # Particle Effects for Team Selection Area
 execute if entity @a[x=10,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 14 force
