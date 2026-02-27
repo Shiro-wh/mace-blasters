@@ -4,8 +4,8 @@
       "id": "minecraft:dragon_breath",
       "count": 1
     },
-    "title": "advancement.title.plattp",
-    "description": "advancement.description.plattp",
+    "title": {"translate":"advancement.title_plattp"},
+    "description": {"translate":"advancement.description_plattp"},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,

@@ -4,9 +4,9 @@
       "id": "minecraft:ladder",
       "count": 1
     },
-    "title": "advancement.title.goingup",
-    "description": "advancement.description.goingup",
-    "frame": "task",
+    "title": {"translate":"advancement.title_goingup"},
+    "description": {"translate":"advancement.description_goingup"},
+     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
