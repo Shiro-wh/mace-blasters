@@ -16,8 +16,7 @@
       "fallback": "advancement.title_catpu",
       "with": [
         {
-          "translate": "advancement.title_catpu.1",
-          "strikethrough": true
+          "translate": "advancement.title_catpu.1"
         }
       ]
     },
@@ -28,8 +27,7 @@
         {
           "translate": "advancement.description_catpu.1",
           "fallback": "advancement.description_catpu.1",
-          "color": "#6c0d87",
-          "italic": true
+          "strikethrough": true
         }
       ]
     },
