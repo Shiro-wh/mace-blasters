@@ -39,6 +39,10 @@
     "hidden": true
   },
   "parent": "mace-blasters:maceblasters",
-  "criteria": {},
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  },
   "sends_telemetry_event": false
 }

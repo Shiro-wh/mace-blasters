@@ -15,6 +15,10 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "criteria": {},
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  },
   "sends_telemetry_event": false
 }
