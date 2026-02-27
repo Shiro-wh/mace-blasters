@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "mace-blasters:maceblasters",
+  "parent": "mace-blasters:catpu",
   "criteria": {
     "touch dim": {
       "trigger": "minecraft:location",

@@ -11,7 +11,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "mace-blasters:maceblasters",
+  "parent": "mace-blasters:catse",
   "criteria": {
     "orange tower": {
       "trigger": "minecraft:location",
