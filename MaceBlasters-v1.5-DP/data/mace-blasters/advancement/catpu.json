@@ -39,15 +39,6 @@
     "hidden": false
   },
   "parent": "mace-blasters:maceblasters",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "requirements": [
-    [
-      "tick"
-    ]
-  ],
+  "criteria": {},
   "sends_telemetry_event": false
 }

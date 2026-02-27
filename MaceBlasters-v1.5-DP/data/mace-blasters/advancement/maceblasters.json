@@ -15,15 +15,6 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "requirements": [
-    [
-      "tick"
-    ]
-  ],
+  "criteria": {},
   "sends_telemetry_event": false
 }
