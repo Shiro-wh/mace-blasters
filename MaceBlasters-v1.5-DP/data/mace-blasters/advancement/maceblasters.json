@@ -12,8 +12,7 @@
     "background": "minecraft:block/honey_block_bottom",
     "frame": "challenge",
     "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": false
+    "announce_to_chat": false
   },
   "criteria": {
     "nothing": {
