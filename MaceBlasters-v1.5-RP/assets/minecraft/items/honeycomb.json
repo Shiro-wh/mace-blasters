@@ -41,6 +41,20 @@
           "type": "model",
           "model": "item/portal2"
       }
+      },	  
+    {
+        "when": "logro-catpu",
+        "model": {
+          "type": "model",
+          "model": "item/mundo"
+      }
+      },
+    {
+        "when": "logro-catse",
+        "model": {
+          "type": "model",
+          "model": "item/interrogacion"
+      }
       }
     ]
   }

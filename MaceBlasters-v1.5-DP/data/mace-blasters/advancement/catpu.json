@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "logro-catpu"
+          ]
+        }
+      },
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.title_catpu",
+      "fallback": "advancement.title_catpu",
+      "with": [
+        {
+          "translate": "advancement.title_catpu.1",
+          "strikethrough": true
+        }
+      ]
+    },
+    "description": {
+      "translate": "advancement.title_catpu",
+      "fallback": "advancement.title_catpu",
+      "with": [
+        {
+          "translate": "advancement.title_catpu.1",
+          "fallback": "advancement.title_catpu.1",
+          "color": "#6c0d87",
+          "italic": true
+        }
+      ]
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "mace-blasters:maceblasters",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

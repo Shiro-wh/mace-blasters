@@ -6,7 +6,7 @@
     },
     "title": "advancement.title.goingup",
     "description": "advancement.description.goingup",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
