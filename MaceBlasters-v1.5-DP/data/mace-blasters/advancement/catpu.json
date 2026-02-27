@@ -22,12 +22,12 @@
       ]
     },
     "description": {
-      "translate": "advancement.title_catpu",
-      "fallback": "advancement.title_catpu",
+      "translate": "advancement.description_catpu",
+      "fallback": "advancement.description_catpu",
       "with": [
         {
-          "translate": "advancement.title_catpu.1",
-          "fallback": "advancement.title_catpu.1",
+          "translate": "advancement.description_catpu.1",
+          "fallback": "advancement.description_catpu.1",
           "color": "#6c0d87",
           "italic": true
         }
