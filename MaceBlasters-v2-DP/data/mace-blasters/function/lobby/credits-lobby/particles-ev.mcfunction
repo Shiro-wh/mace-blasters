@@ -1,0 +1,1 @@
+execute in mace-blasters:mace if entity @a[x=491,y=216,z=495,distance=..20] run particle minecraft:note 491.52 217.9 495.48 0.1 0.2 0.1 0.1 0 force
