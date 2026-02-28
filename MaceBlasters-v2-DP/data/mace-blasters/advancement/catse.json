@@ -36,7 +36,7 @@
     "frame": "goal",
     "show_toast": false,
     "announce_to_chat": false,
-    "hidden": true
+    "hidden": false
   },
   "parent": "mace-blasters:maceblasters",
   "criteria": {
