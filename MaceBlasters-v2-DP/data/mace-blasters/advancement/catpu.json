@@ -27,7 +27,7 @@
         {
           "translate": "advancement.description_catpu.1",
           "fallback": "advancement.description_catpu.1",
-          "strikethrough": true
+          "bold": true
         }
       ]
     },
