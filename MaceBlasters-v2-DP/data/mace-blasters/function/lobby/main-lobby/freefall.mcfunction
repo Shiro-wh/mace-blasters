@@ -10,11 +10,19 @@ execute as @a[tag=lobby.falling] in mace-blasters:mace run function mace-blaster
 execute as @a[tag=lobby.falling] in mace-blasters:mace at @s run tp @s ~ ~110 ~
 execute as @a[tag=lobby.falling] in mace-blasters:mace run tag @s remove lobby.falling
 
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s if entity @a[distance=..2] run fill ~-1 ~ ~-1 ~1 ~ ~1 air replace minecraft:cyan_stained_glass
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s if entity @a[distance=..2] run fill ~-1 ~ ~-1 ~1 ~ ~1 air replace minecraft:orange_stained_glass
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s if entity @a[distance=..2] run particle poof ~ ~ ~ 1 0 1 1 20 force
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s if entity @a[distance=..2] run playsound minecraft:entity.puffer_fish.blow_up master @a[distance=..5] ~ ~ ~ 1 1.2
 
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s as @a[distance=..2.5] run tag @s remove lobby_platform_freefall_cloud 
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s as @a[distance=..2.5] run tag @s remove lobby_platform_freefall_spark
-execute as @e[type=armor_stand,tag=freefall_platform_marker] at @s if entity @a[distance=..2.5] run kill @s
+
+
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run fill ~-1 ~ ~-1 ~1 ~ ~1 air replace minecraft:cyan_stained_glass
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run particle poof ~ ~ ~ 1 0 1 2 30 force
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run playsound minecraft:entity.puffer_fish.blow_up master @a[distance=..5] ~ ~ ~ 11 1.2
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s as @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run tag @s remove lobby_platform_freefall_cloud
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[distance=..2,dy=-5] run kill @s
+execute as @a[tag=lobby_platform_freefall_spark,y=270,dy=4] run effect give @s minecraft:slow_falling 5 14 true
+
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run fill ~-1 ~ ~-1 ~1 ~ ~1 air replace minecraft:cyan_stained_glass
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run particle poof ~ ~ ~ 1 0 1 2 30 force
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run playsound minecraft:entity.puffer_fish.blow_up master @a[distance=..5] ~ ~ ~ 11 1.2
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s as @a[tag=lobby_platform_freefall_cloud,distance=..2,dy=-5] run tag @s remove lobby_platform_freefall_cloud
+execute as @e[type=armor_stand,tag=armorstand.freefall_cloud] at @s if entity @a[distance=..2,dy=-5] run kill @s
+execute as @a[tag=lobby_platform_freefall_cloud,y=270,dy=4] run effect give @s minecraft:slow_falling 5 14 true
