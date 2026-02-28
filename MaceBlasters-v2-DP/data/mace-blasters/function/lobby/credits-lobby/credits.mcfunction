@@ -27,4 +27,4 @@ data remove entity @e[type=minecraft:interaction, tag=interaction.credits_vortic
 
 # Evtema3
 
-schedule function mace-blasters:lobby/credits-lobby/particles-ev 1t
+schedule function mace-blasters:lobby/credits-lobby/particles-ev 2s
