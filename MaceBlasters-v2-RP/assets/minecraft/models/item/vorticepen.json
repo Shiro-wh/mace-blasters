@@ -7,7 +7,7 @@
 			"name": "Head",
 			"from": [4, 24, 4],
 			"to": [12, 32, 12],
-			"rotation": {"angle": 7.5, "axis": "y", "origin": [8, 27.75, 8]},
+			"rotation": {"angle": 12, "axis": "y", "origin": [8, 27.75, 8]},
 			"faces": {
 				"north": {"uv": [2, 2, 4, 4], "texture": "#0"},
 				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
@@ -21,7 +21,7 @@
 			"name": "Hat Layer",
 			"from": [3.5, 23, 3.5],
 			"to": [12.5, 32, 12.5],
-			"rotation": {"angle": 7.5, "axis": "y", "origin": [8, 27.75, 8]},
+			"rotation": {"angle": 12, "axis": "y", "origin": [8, 27.75, 8]},
 			"faces": {
 				"north": {"uv": [10, 2, 12, 4], "texture": "#0"},
 				"east": {"uv": [8, 2, 10, 4], "texture": "#0"},
