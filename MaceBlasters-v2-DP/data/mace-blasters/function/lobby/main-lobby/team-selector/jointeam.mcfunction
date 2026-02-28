@@ -22,7 +22,7 @@ execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,scores={join
 execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,scores={joincloud=0,joinspark=1},tag=spark] run team leave @s
 execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,scores={joincloud=0,joinspark=1},tag=spark] run scoreboard players set @s joinspark 0
 execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,scores={joincloud=0,joinspark=0},tag=spark] run tp @s 0 216 24
-execute in mace-blasters:mace as @a[scores={joincloud=0,joinspark=0},tag=cloud] run tag @s remove spark
+execute in mace-blasters:mace as @a[scores={joincloud=0,joinspark=0},tag=spark] run tag @s remove spark
 
 execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,scores={joincloud=0,joinspark=0}] run scoreboard players add @s joinspark 1
 execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,tag=!change,scores={joincloud=0,joinspark=1}] run tellraw @s {"text":"messaje.join_spark"}
