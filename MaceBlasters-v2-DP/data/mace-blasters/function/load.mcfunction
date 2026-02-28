@@ -1,1 +1,1 @@
-scoreboard objectives add lobby_platform_random dummy
+scoreboard objectives add lobby_platform_random 
