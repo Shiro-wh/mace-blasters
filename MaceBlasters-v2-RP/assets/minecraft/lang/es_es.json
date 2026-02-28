@@ -37,10 +37,10 @@
   "advancement.description_sach6": "placeholder",
   "advancement.title_sach7": "placeholder",
   "advancement.description_sach7": "placeholder",
-  "team.cloud_dispaly": "[%1$s %2$s] ",
-  "team.cloud_dispaly.1": "☁",
-  "team.cloud_dispaly.2": "Los SkyReapers"
-  "team.spark_dispaly": "[%1$s %2$s] ",
-  "team.spark_dispaly.1": "⚡",
-  "team.spark_dispaly.2": "Los Sparks"
+  "team.cloud_display": "[%1$s %2$s] ",
+  "team.cloud_display.1": "☁",
+  "team.cloud_display.2": "Los SkyReapers"
+  "team.spark_display": "[%1$s %2$s] ",
+  "team.spark_display.1": "⚡",
+  "team.spark_display.2": "Los Sparks"
 }
