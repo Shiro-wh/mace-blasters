@@ -55,6 +55,13 @@
           "type": "model",
           "model": "item/interrogacion"
       }
+      },
+    {
+        "when": "evtema",
+        "model": {
+          "type": "model",
+          "model": "item/evtema"
+      }
       }
     ]
   }
