@@ -1,1 +1,0 @@
-execute in mace-blasters:mace as @a[x=9,dx=2,y=216,dy=1,z=32,dz=2] run team join team.spark @s
