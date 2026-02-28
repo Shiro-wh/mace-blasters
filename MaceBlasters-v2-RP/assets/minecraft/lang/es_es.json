@@ -39,7 +39,7 @@
   "advancement.description_sach7": "placeholder",
   "team.cloud_display": "[%1$s %2$s] ",
   "team.cloud_display.1": "☁",
-  "team.cloud_display.2": "Los SkyReapers"
+  "team.cloud_display.2": "Los SkyReapers",
   "team.spark_display": "[%1$s %2$s] ",
   "team.spark_display.1": "⚡",
   "team.spark_display.2": "Los Sparks"
