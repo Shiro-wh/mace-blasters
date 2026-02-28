@@ -22,3 +22,9 @@ execute in mace-blasters:mace as @e[type=minecraft:interaction, tag=interaction.
 execute as @e[type=minecraft:interaction,tag=interaction.credits_vorticepen,nbt={attack:{}}] on attacker run tellraw @s [{"translate":"credits.msg_vorticepen","with":[{"translate":"credits.msg_vorticepen.1","color":"dark_aqua",bold:true},{"translate":"credits.msg_vorticepen.2","color":"dark_purple", bold: false}]}]
 
 data remove entity @e[type=minecraft:interaction, tag=interaction.credits_vorticepen,limit=1] attack
+
+# Addy119
+
+# Evtema3
+
+particle minecraft:note 491.52 216.00 495.48 0.5 2 0.5 0.1 4 force @a[distance=..10]
