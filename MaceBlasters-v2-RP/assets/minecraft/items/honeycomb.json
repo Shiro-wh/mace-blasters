@@ -36,10 +36,10 @@
       }
       },
 	  {
-        "when": "portal2",
+        "when": "addy",
         "model": {
           "type": "model",
-          "model": "item/portal2"
+          "model": "item/addy"
       }
       },	  
     {
