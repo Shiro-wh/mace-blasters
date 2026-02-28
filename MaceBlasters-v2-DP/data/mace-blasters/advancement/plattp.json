@@ -10,6 +10,7 @@
         }
       },
       "count": 1
+    },
     "title": {"translate":"advancement.title_plattp"},
     "description": {"translate":"advancement.description_plattp"},
     "frame": "task",
