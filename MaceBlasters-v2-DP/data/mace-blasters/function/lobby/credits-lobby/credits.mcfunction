@@ -27,4 +27,4 @@ data remove entity @e[type=minecraft:interaction, tag=interaction.credits_vortic
 
 # Evtema3
 
-particle minecraft:note 491.52 216.00 495.48 0.5 2 0.5 0.1 4 force @a[distance=..10]
+execute if entity @a[x=491,y=216,z=495,distance=..20] run particle minecraft:note 491.52 216.00 495.48 0.5 2 0.5 0.1 4 force
