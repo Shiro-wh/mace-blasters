@@ -22,12 +22,12 @@
       ]
     },
     "description": {
-      "translate": "advancement.title_catse",
-      "fallback": "advancement.title_catse",
+      "translate": "advancement.description_catse",
+      "fallback": "advancement.description_catse",
       "with": [
         {
-          "translate": "advancement.title_catse.1",
-          "fallback": "advancement.title_catse.1",
+          "translate": "advancement.description_catse.1",
+          "fallback": "advancement.description_catse.1",
           "color": "#6c0d87",
           "italic": true
         }
