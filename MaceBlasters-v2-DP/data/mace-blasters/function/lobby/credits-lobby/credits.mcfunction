@@ -26,5 +26,3 @@ data remove entity @e[type=minecraft:interaction, tag=interaction.credits_vortic
 # Addy119
 
 # Evtema3
-
-function mace-blasters:lobby/credits-lobby/particles-ev
