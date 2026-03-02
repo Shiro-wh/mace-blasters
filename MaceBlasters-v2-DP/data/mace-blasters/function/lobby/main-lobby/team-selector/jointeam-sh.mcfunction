@@ -1,7 +1,7 @@
 # Leave Cloud Shiro
 execute in mace-blasters:mace as @a[x=9,dx=2,y=216,dy=1,z=32,dz=2,team=team.cloud] run tag @s add team.cloud.leave
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tellraw @s {"text":"message.leave_cloud"}
-execute in mace-blasters:mace as @a[tag=team.cloud.leave] run team leave @s
+execute in mace-blasters:mace as @a[tag=team.cloud.leave] run team join team.lobby @s
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tp @s 0 216 24
 # cambiar sonido y efecto, placeholders!
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run playsound minecraft:block.azalea.hit voice @s ~ ~ ~ 1 1
@@ -31,7 +31,7 @@ execute in mace-blasters:mace as @a[tag=betray.team.cloud.join] run tag @s remov
 # Leave Spark Shiro
 execute in mace-blasters:mace as @a[x=-11,dx=2,y=216,dy=1,z=32,dz=2,team=team.spark] run tag @s add team.spark.leave
 execute in mace-blasters:mace as @a[tag=team.spark.leave] run tellraw @s {"text":"message.leave_spark"}
-execute in mace-blasters:mace as @a[tag=team.spark.leave] run team leave @s
+execute in mace-blasters:mace as @a[tag=team.spark.leave] run team join team.lobby @s
 execute in mace-blasters:mace as @a[tag=team.spark.leave] run tp @s 0 216 24
 # cambiar sonido y efecto, placeholders!
 execute in mace-blasters:mace as @a[tag=team.spark.leave] run playsound minecraft:block.azalea.hit voice @s ~ ~ ~ 1 1
