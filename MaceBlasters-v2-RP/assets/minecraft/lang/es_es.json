@@ -42,5 +42,6 @@
   "team.cloud_display.2": "Los SkyReapers",
   "team.spark_display": "[%1$s %2$s] ",
   "team.spark_display.1": "⚡",
-  "team.spark_display.2": "Los Sparks"
+  "team.spark_display.2": "Los Sparks",
+  "":""
 }
