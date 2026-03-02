@@ -56,4 +56,4 @@ execute in mace-blasters:mace as @a[tag=betray.team.spark.join] run tp @s 0 216 
 # cambiar sonido y efecto, placeholders!
 execute in mace-blasters:mace as @a[tag=betray.team.spark.join] run playsound minecraft:block.azalea.hit voice @s ~ ~ ~ 1 1
 execute in mace-blasters:mace as @a[tag=betray.team.spark.join] run particle minecraft:angry_villager ~ ~ ~ 1 2 1 1 3 force
-execute in mace-blasters:mace as @a[tag=betray.team.spark.join] run tag @s remove team.spark.join
+execute in mace-blasters:mace as @a[tag=betray.team.spark.join] run tag @s remove betray.team.spark.join
