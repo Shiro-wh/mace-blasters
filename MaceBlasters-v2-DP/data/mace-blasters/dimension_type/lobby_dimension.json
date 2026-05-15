@@ -4,8 +4,9 @@
     "minecraft:visual/sky_color": 9793617,
     "minecraft:gameplay/can_pillager_patrol_spawn": false,
     "minecraft:gameplay/can_start_raid": false,
-    "minecraft:gameplay/surface_slime_spawn_chance": 0,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
     "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/surface_slime_spawn_chance": 0,
     "minecraft:gameplay/bed_rule": {
       "can_sleep": "always",
       "can_set_spawn": "always",
@@ -14,6 +15,7 @@
   },
   "has_skylight": true,
   "has_ceiling": false,
+  "has_ender_dragon_fight": false,
   "coordinate_scale": 1,
   "ambient_light": 0,
   "logical_height": 384,
