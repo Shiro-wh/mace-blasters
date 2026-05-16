@@ -9,6 +9,8 @@ function mace-blasters:lobby/main-lobby/team-selector/jointeam-sh
 execute in mace-blasters:mace if entity @a[x=10,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 14 force
 execute in mace-blasters:mace if entity @a[x=-9,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 14 force
 
+execute in mace-blasters:mace if entity @a[x=10,y=216,z=33,distance=..50] run particle minecraft:witch -9.49 320.20 34.49 0.2 0.1 0.2 0 1 force
+execute in mace-blasters:mace if entity @a[x=10,y=216,z=33,distance=..50] run particle minecraft:witch 10.46 320.00 31.48 0.2 0.1 0.2 0 1 force
 execute in mace-blasters:mace unless entity @a[x=10,y=216,z=33,distance=..50] if entity @a[x=10,y=216,z=33,distance=51..75] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 12 2.1 0.00002 7 force
 execute in mace-blasters:mace unless entity @a[x=-9,y=216,z=33,distance=..50] if entity @a[x=-9,y=216,z=33,distance=51..75] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 7 force
 
