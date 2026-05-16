@@ -7,6 +7,10 @@
     "minecraft:gameplay/nether_portal_spawns_piglin": false,
     "minecraft:gameplay/respawn_anchor_works": true,
     "minecraft:gameplay/surface_slime_spawn_chance": 0,
+        "minecraft:visual/ambient_light_color": {
+      "modifier": "override",
+      "argument": "#fafafa"
+    },
     "minecraft:gameplay/bed_rule": {
       "can_sleep": "always",
       "can_set_spawn": "always",
