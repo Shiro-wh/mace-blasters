@@ -1,5 +1,6 @@
 # Mace Blasters Main Lobby Function
 
+function mace-blasters:lobby/main-lobby/void-replace/freefall
 function mace-blasters:lobby/main-lobby/screen/welcome-screen
 function mace-blasters:lobby/main-lobby/advancements/below-lobby
 function mace-blasters:lobby/main-lobby/team-selector/jointeam-sh
