@@ -5,14 +5,14 @@ function mace-blasters:lobby/main-lobby/advancements/below-lobby
 function mace-blasters:lobby/main-lobby/team-selector/jointeam-sh
 
 # Particle Effects for Team Selection Area
-execute if entity @a[x=10,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 14 force
-execute if entity @a[x=-9,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 14 force
+execute in mace-blasters:mace if entity @a[x=10,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 24 2.1 0.00002 14 force
+execute in mace-blasters:mace if entity @a[x=-9,y=216,z=33,distance=..50] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 14 force
 
-execute unless entity @a[x=10,y=216,z=33,distance=..50] if entity @a[x=10,y=216,z=33,distance=51..75] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 12 2.1 0.00002 7 force
-execute unless entity @a[x=-9,y=216,z=33,distance=..50] if entity @a[x=-9,y=216,z=33,distance=51..75] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 7 force
+execute in mace-blasters:mace unless entity @a[x=10,y=216,z=33,distance=..50] if entity @a[x=10,y=216,z=33,distance=51..75] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 12 2.1 0.00002 7 force
+execute in mace-blasters:mace unless entity @a[x=-9,y=216,z=33,distance=..50] if entity @a[x=-9,y=216,z=33,distance=51..75] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 7 force
 
-execute unless entity @a[x=10,y=216,z=33,distance=..75] if entity @a[x=10,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 6 2.1 0.00002 3 force
-execute unless entity @a[x=-9,y=216,z=33,distance=..75] if entity @a[x=-9,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 3 force
+execute in mace-blasters:mace unless entity @a[x=10,y=216,z=33,distance=..75] if entity @a[x=10,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection_ominous 10 262 33 2.1 6 2.1 0.00002 3 force
+execute in mace-blasters:mace unless entity @a[x=-9,y=216,z=33,distance=..75] if entity @a[x=-9,y=216,z=33,distance=76..95] run particle minecraft:trial_spawner_detection -9 262 33 2.1 24 2.1 0.00002 3 force
 
 execute in mace-blasters:mace run particle dust{color:[0.290,0.765,1.000],scale:1} 10 216 31 0.90 0 0 0 3 force
 execute in mace-blasters:mace run particle dust{color:[0.290,0.765,1.000],scale:1} 8 216 33 0 0 0.90 0 3 force
