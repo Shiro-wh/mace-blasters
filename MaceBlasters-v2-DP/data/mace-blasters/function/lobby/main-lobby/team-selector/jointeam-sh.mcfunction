@@ -5,7 +5,7 @@ execute in mace-blasters:mace as @a[tag=team.cloud.leave] run team join team.lob
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tp @s 0 216 24
 
 # cambiar sonido y efecto, placeholders!
-execute in mace-blasters:mace as @a[tag=team.cloud.leave] run playsound minecraft:block.note_block.didgeridoo voice @s 0 217 24 1 0.2
+execute in mace-blasters:mace as @a[tag=team.cloud.leave] run playsound minecraft:block.beehive.exit voice @s 0 217 24 1 0.1
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run particle minecraft:trial_omen 0 217 24 0.5 1.5 0.5 0.3 15 force
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tag @s remove team.cloud.leave
 
@@ -38,7 +38,7 @@ execute in mace-blasters:mace as @a[tag=team.spark.leave] run team join team.lob
 execute in mace-blasters:mace as @a[tag=team.spark.leave] run tp @s 0 216 24
 
 # cambiar sonido y efecto, placeholders!
-execute in mace-blasters:mace as @a[tag=team.spark.leave] run playsound minecraft:block.note_block.didgeridoo voice @s 0 217 24 1 0.2
+execute in mace-blasters:mace as @a[tag=team.spark.leave] run playsound minecraft:block.note_block.didgeridoo voice @s 0 217 24 1 0.1
 execute in mace-blasters:mace as @a[tag=team.spark.leave] run particle minecraft:raid_omen 0 217 24 0.5 1.5 0.5 0.3 15 force
 execute in mace-blasters:mace as @a[tag=team.spark.leave] run tag @s remove team.spark.leave
 
