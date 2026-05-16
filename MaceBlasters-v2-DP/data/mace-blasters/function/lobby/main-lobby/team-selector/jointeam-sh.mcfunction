@@ -3,11 +3,9 @@ execute in mace-blasters:mace as @a[x=9,dx=2,y=216,dy=1,z=32,dz=2,team=team.clou
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tellraw @s {"text":"message.leave_cloud"}
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run team join team.lobby @s
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tp @s 0 216 24
-execute in mace-blasters:mace as @a[tag=team.cloud.leave] run playsound minecraft:block.azalea.hit voice @s ~ ~ ~ 1 1
-execute in mace-blasters:mace as @a[tag=team.cloud.leave] run particle minecraft:angry_villager ~ ~ ~ 1 2 1 1 3 force
 
 # cambiar sonido y efecto, placeholders!
-execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tellraw @s {"text":"prueba"}
+execute in mace-blasters:mace as @a[tag=team.cloud.leave] run playsound minecraft:block.azalea.hit voice @s ~ ~ ~ 1 1
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run particle minecraft:angry_villager ~ ~ ~ 1 2 1 1 3 force
 execute in mace-blasters:mace as @a[tag=team.cloud.leave] run tag @s remove team.cloud.leave
 
